@@ -15,14 +15,9 @@ python data/build_cache.py \
 ```
 
 For benchmark use, obtain `MapEval-Textual.jsonl` from the official
-MapEval-Textual dataset:
+MapEval-Textual dataset on Hugging Face:
 
 https://huggingface.co/datasets/MapEval/MapEval-Textual
-
-The dataset is associated with the ICML 2025 paper *MapEval: A Map-Based
-Evaluation of Geo-Spatial Reasoning in Foundation Models*:
-
-https://openreview.net/forum?id=hS2Ed5XYRq
 
 Export the Hugging Face split to JSONL:
 

@@ -68,15 +68,10 @@ python data/build_cache.py \
 
 ### MapEval Data
 
-For real benchmark runs, use the official MapEval datasets from the paper
-*MapEval: A Map-Based Evaluation of Geo-Spatial Reasoning in Foundation Models*
-by Dihan et al.:
+For real benchmark runs, use the official MapEval datasets from Hugging Face:
 
-- Paper: https://openreview.net/forum?id=hS2Ed5XYRq
-- Preprint: https://arxiv.org/abs/2501.00316
-- Project page: https://mapeval.github.io/
-- Textual dataset: https://huggingface.co/datasets/MapEval/MapEval-Textual
-- API dataset: https://huggingface.co/datasets/MapEval/MapEval-API
+- MapEval-Textual: https://huggingface.co/datasets/MapEval/MapEval-Textual
+- MapEval-API: https://huggingface.co/datasets/MapEval/MapEval-API
 
 `MapEval-Textual.jsonl` is used to build `data/context_cache.db` because it
 contains the `context` field with place information, routes, travel times, and
@@ -120,8 +115,7 @@ If you use the MapEval data, cite the original paper:
   title={MapEval: A Map-Based Evaluation of Geo-Spatial Reasoning in Foundation Models},
   author={Mahir Labib Dihan and MD Tanvir Hassan and MD TANVIR PARVEZ and Md Hasebul Hasan and Md Almash Alam and Muhammad Aamir Cheema and Mohammed Eunus Ali and Md Rizwan Parvez},
   booktitle={Forty-second International Conference on Machine Learning},
-  year={2025},
-  url={https://openreview.net/forum?id=hS2Ed5XYRq}
+  year={2025}
 }
 ```
 
