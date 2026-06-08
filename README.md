@@ -128,16 +128,6 @@ If you use the MapEval data, cite the original paper:
 - `test_agent.py`: MapEval-style batch evaluator.
 - `examples/`: small synthetic files for smoke tests only.
 
-## Privacy And Data Policy
-
-This candidate release does not include:
-
-- API keys or `.env` files.
-- Local SQLite cache files.
-- Deduplication logs.
-- Generated reports or runtime logs.
-- Paper PDFs, notebooks, PPTX/XLSX files, or private research notes.
-
 ## License
 
 MIT License.
